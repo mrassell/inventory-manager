@@ -53,4 +53,4 @@ Push to the branch:
 Create a pull request to the main repository.
 
 ## Contact
-If you have any questions or need further assistance, feel free to contact us at mr6761@nyu.edu
+If you have any questions or need further assistance, feel free to contact me at mr6761@nyu.edu
