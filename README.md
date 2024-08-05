@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Inventory Manager App
+
+Welcome to the Inventory Manager App! This application is built with Next.js and utilizes Majuro UI components. It allows you to add, track, and remove items in your pantry or storage unit efficiently.
+
+## Features
+
+- **Add Items:** Easily add items to your inventory with details like name, quantity, and description.
+- **Track Items:** Keep track of all the items in your inventory, with an overview of quantities and descriptions.
+- **Remove Items:** Remove items from your inventory when they are used up or no longer needed.
+
+## Technologies Used
+
+- **Next.js:** A React framework for server-rendered or statically exported React applications.
+- **Majuro UI:** A UI component library that provides pre-designed, easy-to-use components.
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Make sure you have the following installed on your local machine:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Node.js (>= 12.x.x)
+- npm (>= 6.x.x) or yarn (>= 1.22.x)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### Installation
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1. **Clone the repository:**
 
-## Learn More
+   ```bash
+   git clone https://github.com/your-username/inventory-manager-app.git
+   cd inventory-manager-app
+   
+2. Install dependencies:
 
-To learn more about Next.js, take a look at the following resources:
+Using npm:
+npm install
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Or using yarn:
+yarn install
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+The application will be available at http://localhost:3000.
 
-## Deploy on Vercel
+Contributing
+We welcome contributions to improve the Inventory Manager App! To contribute, follow these steps:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Fork the repository.
+Create a new branch:
+bash
+Copy code
+git checkout -b feature/your-feature-name
+Make your changes and commit them:
+bash
+Copy code
+git commit -m "Add your commit message here"
+Push to the branch:
+bash
+Copy code
+git push origin feature/your-feature-name
+Create a pull request to the main repository.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Contact
+If you have any questions or need further assistance, feel free to contact us at mr6761@nyu.edu
