@@ -33,30 +33,24 @@ Make sure you have the following installed on your local machine:
 2. Install dependencies:
 
 Using npm:
-npm install
+```npm install```
 
 Or using yarn:
-yarn install
+```yarn install```
 
 The application will be available at http://localhost:3000.
 
-Contributing
+##Contributing
 We welcome contributions to improve the Inventory Manager App! To contribute, follow these steps:
 
-Fork the repository.
+##Fork the repository.
 Create a new branch:
-bash
-Copy code
-git checkout -b feature/your-feature-name
+```git checkout -b feature/your-feature-name```
 Make your changes and commit them:
-bash
-Copy code
-git commit -m "Add your commit message here"
+```git commit -m "Add your commit message here"```
 Push to the branch:
-bash
-Copy code
-git push origin feature/your-feature-name
+```git push origin feature/your-feature-name```
 Create a pull request to the main repository.
 
-Contact
+##Contact
 If you have any questions or need further assistance, feel free to contact us at mr6761@nyu.edu
