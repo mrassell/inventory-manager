@@ -40,10 +40,10 @@ Or using yarn:
 
 The application will be available at http://localhost:3000.
 
-##Contributing
+## Contributing
 We welcome contributions to improve the Inventory Manager App! To contribute, follow these steps:
 
-## Fork the repository.
+## Fork the repository
 Create a new branch:
 ```git checkout -b feature/your-feature-name```
 Make your changes and commit them:
