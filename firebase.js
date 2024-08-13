@@ -1,5 +1,5 @@
 import { initializeApp } from "firebase/app";
-import { getFirestore, initializeFirestore, persistentLocalCache, persistentMultipleTabManager } from 'firebase/firestore';
+import { getFirestore, initializeFirestore, persistentLocalCache } from 'firebase/firestore';
 
 const firebaseConfig = {
   apiKey: "AIzaSyAWp_QGHj2fNk-DwM3GHAv04JWAeXDDEIQ",
@@ -10,20 +10,11 @@ const firebaseConfig = {
   appId: "1:675909783836:web:9fa6909247b12d92e6aad9"
 };
 
-let firestore;
+const app = initializeApp(firebaseConfig);
 
-try {
-  const app = initializeApp(firebaseConfig);
-  
-  firestore = initializeFirestore(app, {
-    localCache: persistentLocalCache({
-      tabManager: persistentMultipleTabManager()
-    })
-  });
-
-  console.log("Firebase initialized successfully with offline persistence");
-} catch (error) {
-  console.error("Error initializing Firebase:", error);
-}
+// Initialize Firestore with persistence
+const firestore = initializeFirestore(app, {
+  localCache: persistentLocalCache()
+});
 
 export { firestore };
