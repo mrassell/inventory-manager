@@ -2,7 +2,7 @@
 
 Welcome to the Inventory Manager App! This application is built with Next.js and utilizes Majuro UI components. It allows you to add, track, and remove items in your pantry or storage unit efficiently.
 
-Hosted on vercel here: https://inventory-manager-seven-theta.vercel.app/
+Hosted on Vercel here: https://inventory-manager-seven-theta.vercel.app/
 
 ## Features
 
