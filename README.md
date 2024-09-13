@@ -4,7 +4,7 @@ Welcome to the Inventory Manager App! This application is built with Next.js and
 
 Hosted on Vercel here: https://inventory-manager-seven-theta.vercel.app/
 
-Note: Firebase API keys and Project IDs are protected by Vercel, used .env.local file to deploy.
+Firebase API keys and Project IDs are protected by Vercel (used .env.local file to deploy)
 
 ## Features
 
