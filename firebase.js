@@ -12,7 +12,6 @@ const firebaseConfig = {
 
 const app = initializeApp(firebaseConfig);
 
-// Initialize Firestore with persistence
 const firestore = initializeFirestore(app, {
   localCache: persistentLocalCache()
 });
